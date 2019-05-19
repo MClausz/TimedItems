@@ -1,0 +1,15 @@
+name: TimedItems
+version: 2.7
+main: net.minefs.TimedItems.Main
+author: MClaus
+commands:
+ timeditems:
+  description: /<command> help
+  permission: timeditems.admin
+  aliases: [tm, thoihan, th]
+permissions:
+ timeditems.*:
+  default: op
+  children:
+   timeditems.admin: true
+   timeditems.ignore: true
